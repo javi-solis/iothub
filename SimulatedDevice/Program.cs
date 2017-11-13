@@ -31,9 +31,9 @@ namespace SimulatedDevice
         {
             List<DeviceInfo> devices = new List<DeviceInfo>();
 
-            devices.Add(new DeviceInfo(Constants.Device1Id, "ZPG8Ix3qPlwCNtpBU8Z8JzKaezZErAeZTmGdIhCrJ1U="));
-            devices.Add(new DeviceInfo(Constants.Device2Id, "f7BEYh/4+xRuDehkpVOWjM5KBHpZIFzLg13qboAcm9U="));
-            devices.Add(new DeviceInfo(Constants.Device3Id, "zSF5YJdydDKzbQ3f9EmgXKgFOqaATZ+0N41YpqBFARA="));
+            devices.Add(new DeviceInfo(Constants.Device1Id, "RegistrationDeviceKey1"));
+            devices.Add(new DeviceInfo(Constants.Device2Id, "RegistrationDeviceKey2"));
+            devices.Add(new DeviceInfo(Constants.Device3Id, "RegistrationDeviceKey3"));
           
             return devices;
         }

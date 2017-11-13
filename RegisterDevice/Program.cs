@@ -45,7 +45,7 @@ namespace RegisterDevice
 
             foreach (Device d in devices)
             {
-                Console.WriteLine("Generated device key: {0}", d.Authentication.SymmetricKey.PrimaryKey);
+                Console.WriteLine("Generated device key [Paste this key into SimulatedDevice.Program.cs]: {0}", d.Authentication.SymmetricKey.PrimaryKey);
             }
         }
     }
